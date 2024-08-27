@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+
+/* BODY  CSS */
+
+body{
+  font-family: sans-serif;
+  /* box-shadow: 20px 20px 60px #bebebe; */
+  /* box-shadow: -20px -20px 60px #ffffff; */
+  background-color: #ff4c68;
+}
+
+h2{
+  text-align: center;
+  padding: 15px;
+  font-family: sans-serif;
+}
+
+
+/* CONTAINER */
+.container{
+  height:100vh;
+  display: flex;
+}
+
+.form-container{
+  margin: auto;
+  padding: 1.3rem;
+  /* box-shadow: 20px 20px 45px #bebebe; */
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+input{
+  width: 100%;
+  background-color: black;
+  color: black;
+  display: block;
+  font-size: 18px;
+
+  padding: 10px;
+  border: none;
+  background: transparent;
+  box-shadow: 20px 20px 45px #bebebe;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 10px;
+}
+
+input:focus{
+  box-shadow: 20px 20px 45px #bebebe;
+}
+
+.input-group{
+  display: flex;
+
+
+}
+
+.input-group:first-child{
+  margin-right: 10px;
+}
+
+input::placeholder{
+  color: rgba(79,79,79,05);
+}
+
+button{
+  width:100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: block;
+  border: none;
+  background: transparent;
+  box-shadow: 20px 20px 45px #bebebe;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color:rgb(0,0,0);
+}
+
+button:focus{
+  box-shadow: 20px 20px 45px #bebebe;
+}
+
+button:hover{
+  color: grey;
+}
+
+@media (max-width:900px) {
+.form-container{
+  margin: auto;
+
+.input-group{
+  display:block;
+}
+.container{
+
+}
+
+
+
+
+
+}
